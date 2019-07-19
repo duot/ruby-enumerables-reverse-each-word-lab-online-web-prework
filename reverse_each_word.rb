@@ -4,7 +4,7 @@ def reverse_each_word sentence
   #sentence.split(' ').each { |x| word_array << x.reverse}
   #word_array.join ' '
   #=end
-  # hmmm. block quote has trouble with this rspec?
+  # hmmm. block comment has trouble with this rspec?
 
   sentence.split(' ').collect { |x| x.reverse}.join(' ')
 end
